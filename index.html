@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Aztech Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.css" />
+</head>
+
+<body>
+    <header class="">
+        <!-- Main Navbar -->
+        <nav class="uk-container uk-navbar mainNav">
+            <div class="uk-navbar-left">
+                <ul class="uk-navbar-nav">
+                    <li class="uk-active">
+                        <a href="#" class="mainNav__logo">
+                            <img src="./image/logo.png"/>
+                        </a>
+                    </li> 
+                </ul>
+            </div>
+            <div class="uk-navbar-right mainNav__link">
+                <ul class="uk-navbar-nav uk-visible@s uk-visible@m">
+                    <li><a class="uk-text-large" href="#">About Us</a></li>
+                    <li><a class="uk-text-large" href="#">Expertise</a></li>
+                    <li><a class="uk-text-large" href="#">Design-to-build</a></li>
+                    <li><a class="uk-text-large" href="#">Resources</a></li>
+                    <li><a class="uk-text-large" href="#">Invester Relations</a></li>
+                    <li><a class="uk-text-large mainNav__contact button" href="">Contact Us</a></li>
+                </ul>
+                <a href="#" class="uk-navbar-toggle uk-hidden@m" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
+            </div>
+        </nav>
+    </header>
+
+    <div id="sidenav" uk-offcanvas="flip: true; overlay: true" class="uk-offcanvas">
+        <div class="uk-offcanvas-bar">
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+            <ul class="uk-nav">
+               
+                <li><a class="" href="#">About Us</a></li>
+                <li><a class="" href="#">Expertise</a></li>
+                <li><a class="" href="#">Design-to-build</a></li>
+                <li><a class="" href="#">Resources</a></li>
+                <li><a class="" href="#">Invester Relations</a></li>
+                <li><a class="" href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="banner">
+        <div class="uk-container">
+            <div class="banner__content" data-aos="zoom-out" data-aos-duration="2000">
+                <div class="banner__title">
+                    Aztech At <br> the Forefront.
+                </div>
+                <div>On the up.</div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!--introWrap-->
+    <section class="introWrap uk-padding-large">
+        <div class="uk-container uk-container-center">
+            <div class="uk-grid">
+                <div class="uk-width-3-5@m introWrap__left" data-aos="fade-up" data-aos-duration="2000">
+                    <p> As one of Singapore’s leading design and electronics manufacturer, our mission has always been succinctly singular: To deliver value beyond expectations.
+                    </p>
+                </div>
+                <div class="uk-width-2-5@m" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="uk-flex uk-flex-column ">
+                        <div class="introWrap__img uk-visible@m">
+                            <img src="./image/arrow-green-trans.png" alt="long.png">
+                        </div>
+                        <div class="introWrap__right">
+                            <p>Being a turnkey, one-stop integrated solutions provider, 
+                                Aztech is equipped with state-of-the-art equipment, driven by 4 R&amp;D centres, 
+                                with expertise in design, manufacturing and 
+                                packaging to deliver a seamless, unified experience. Each and every time.
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--introWrap-->
+
+    <!--contents-->
+    <section class="sliderWrap">
+        <div class="contents uk-padding-large">
+            <div class="contents__triangle"></div>
+    
+            <div class="uk-container">
+                <div class="uk-grid">
+                    <div class="uk-width-2-5@m contents__left " data-aos="fade-up" data-aos-duration="2000">
+                        Smart solutions. Better living.
+                    </div>
+                    <div class="uk-width-3-5@m contents__right" data-aos="fade-up" data-aos-duration="2000">
+                        Expertise and experience. Our dual driving force to producing results for our clients.
+                        From conceptualisation to productisation, we have what it takes to support 
+                        our clients – at every step of the journey. Our expertise transcends across categories like
+                        automotive, consumer lifestyle, healthcare, communications and industrial.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contents__slider uk-container">
+            <!-- Swiper -->
+            <div class="swiper-container" data-aos="fade-up" data-aos-duration="2000">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="swiper-slide--image">
+                            <a href="">
+                                <div style="background-image: url('./image/slider-2.jpg')"></div>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide--caption">
+                            <div class="caption__title">
+                                <a href="">
+                                    Lighting
+                                </a>
+                            </div>
+                            <a href="" class="caption__btn">
+                                <span uk-icon="arrow-right"></span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="swiper-slide--image">
+                            <a href="">
+                                <div style="background-image: url('./image/slider-1.jpg')"></div>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide--caption">
+                            <div class="caption__title">
+                                <a href="">
+                                    Consumers, home and lifestyle
+                                </a>
+                            </div>
+                            <a href="" class="caption__btn">
+                                <span uk-icon="arrow-right"></span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="swiper-slide--image">
+                            <a href="">
+                                <div style="background-image: url('./image/slider-3.jpg')"></div>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide--caption">
+                            <div class="caption__title">
+                                <a href="">
+                                    Automotive
+                                </a>
+                            </div>
+                            <a href="" class="caption__btn">
+                                <span uk-icon="arrow-right"></span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="swiper-slide--image">
+                            <a href="">
+                                <div style="background-image: url('./image/slider-4.jpg')"></div>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide--caption">
+                            <div class="caption__title">
+                                <a href="">
+                                    Communications
+                                </a>
+                            </div>
+                            <a href="" class="caption__btn">
+                                <span uk-icon="arrow-right"></span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="swiper-slide--image">
+                            <a href="">
+                                <div style="background-image: url('./image/slider-5.jpg')"></div>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide--caption">
+                            <div class="caption__title">
+                                <a href="">Healthcare</a>
+                            </div>
+                            <a href="" class="caption__btn">
+                                <span uk-icon="arrow-right"></span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="swiper-slide--image">
+                            <a href="">
+                                <div style="background-image: url('./image/slider-6.jpg')"></div>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide--caption">
+                            <div class="caption__title">
+                                <a href="">
+                                    Industrial
+                                </a>
+                            </div>
+                            <a href="" class="caption__btn">
+                                <span uk-icon="arrow-right"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+    
+    <!--contents-->
+
+    <!--designWrap-->
+    <section class="designWrap">
+        <div class="uk-container">
+            <div class="uk-grid uk-text-center">
+               
+                <div class="uk-width-large-1-2 uk-container-center" 
+                data-aos="fade-up" data-aos-duration="2000">
+                    <h1 class="designWrap__title">
+                        Creating value. Designing success.
+                    </h1>
+                    <p class="designWrap__text">Our holistic, one-stop design-to-build manufacturing services help us 
+                        create value for ourclients, seamlessly, at every stage, from start to end.
+                         Our services include design and development,
+                         product industrialisation, manufacturing and supply chain management.
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="uk-container-expand designWrap__steps uk-margin-large-top" 
+        data-aos="fade-up" data-aos-duration="2000">
+            <div class="designWrap__steps--line"></div>
+
+            <div class="designWrap__step">
+                <div class="designWrap__step--num"> 1 </div>
+                <div class="designWrap__step--dot"> 
+                    <div class="mb-hr-line d-none"></div>
+                </div>
+                <div class="designWrap__contents">
+                    <div class="designWrap__contents--img" style="background-image:url(./image/icon-1-1.png)"> </div>
+                    <div class="designWrap__contents--content"> DESIGN AND DEVELOPMENT </div>
+                </div>
+            </div>
+
+            <div class="designWrap__step">
+                <div class="designWrap__step--num"> 2 </div>
+                <div class="designWrap__step--dot">
+                    <div class="mb-hr-line d-none"></div> 
+                </div>
+                <div class="designWrap__contents">
+                    <div class="designWrap__contents--img" style="background-image:url(./image/icon-1-1.png)"> </div>
+                    <div class="designWrap__contents--content"> PRODUCT INDUSTRIALISATION </div>
+                </div>
+            </div>
+
+            <div class="designWrap__step">
+                <div class="designWrap__step--num"> 3 </div>
+                <div class="designWrap__step--dot">
+                    <div class="mb-hr-line d-none"></div> 
+                </div>
+                <div class="designWrap__contents">
+                    <div class="designWrap__contents--img" style="background-image:url(./image/icon-2-1.png)"> </div>
+                    <div class="designWrap__contents--content"> MANUFACTURING </div>
+                </div>
+            </div>
+
+            <div class="designWrap__step">
+                <div class="designWrap__step--num"> 4 </div>
+                <div class="designWrap__step--dot"> 
+                    <div class="mb-hr-line d-none"></div>
+                </div>
+                <div class="designWrap__contents">
+                    <div class="designWrap__contents--img" style="background-image:url(./image/icon-3-1.png)"> </div>
+                    <div class="designWrap__contents--content"> SUPPLY CHAIN MANAGEMENT </div>
+                </div>
+            </div>
+
+            <div class="designWrap__step">
+                <div class="designWrap__step--num"> 5 </div>
+                <div class="designWrap__step--dot">
+                    <div class="mb-hr-line d-none"></div>
+                </div>
+                <div class="designWrap__contents">
+                    <div class="designWrap__contents--img" style="background-image:url(./image/icon-4-1.png)"> </div>
+                    <div class="designWrap__contents--content"> AFTERMARKET SERVICES </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-container">
+            <a class="designWrap__btn button uk-margin-large-top" 
+                href="design-to-build"> See How It’s Done  </a>
+        </div>
+        
+            
+    </section>
+    <!--designWrap-->
+
+    <!--about-->
+    <section class="about uk-padding-large">
+        <div class="uk-container">
+            <div class="uk-grid uk-text-center">
+               
+                <div class="uk-width-large-1-2 uk-container-center" 
+                data-aos="fade-up" data-aos-duration="2000">
+                    <h1 class="about__title">
+                        We’re right where you need us
+                    </h1>
+                    <p class="about__text">We’re headquartered in Singapore, 
+                        with strategic presence throughout our distribution network across over 40 countries,
+                        all ready to deliver products and solutions wherever you are.
+                    </p>
+                </div>
+            </div>
+        <div class="map">
+            <div class="map__img" data-aos="fade-up" data-aos-duration="2000">
+                <img src="./image/map.png" />
+            </div>
+            <div class="pin pin-1">
+                <img src="./image/location.png" 
+                uk-tooltip="title:Aztech @ Dong Guan Jiu Jiang Shui Village, Chang Ping Town, Dong Guan City Guang Dong Province, China; pos: top;"/>
+
+            </div>
+            <div class="pin pin-2">
+                <img src="./image/location.png" uk-tooltip="title:Aztech @ Shenzhen Room 1805 - 06, Building B of Bojin International, No.7 Tairan Road, Futian District; pos: right;"/>
+            </div>
+            <div class="pin pin-3">
+                <img src="./image/location.png" uk-tooltip="title:Aztech @ Malaysia &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8 & 10, Setia Business Park,Jalan Laman Setia 7/4,Taman Laman Setia 81550,Johor Bahru, Johor; pos: left;"/>
+            </div>
+            <div class="pin pin-4">
+                <img src="./image/location.png" uk-tooltip="title:Aztech @ Singapore &nbsp;&nbsp; 31 Ubi Road 1, #01 - 05,Singapore 408694; pos: bottom;"/>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--about-->
+
+    <!--footer-->
+    <footer data-aos="fade-in" data-aos-duration="3000">
+        
+        <div class="uk-container footerContent">
+            <div class="uk-grid">
+                <div class="uk-width-2-5@m">
+                    <h1 class="footerContent__title">Ready for you.</h1>
+                    <div class="footerContent__text">Let’s get to work. Our people, our resources and our infrastructure are waiting for you. 
+                        Contact us today to see how we can get your business to the head of the curve.
+                    </div>
+                </div>
+                <div class="uk-width-3-5@m">
+                    <a href="" class="button footerContent__button">Get In Touch</a>
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        <div class="uk-container footerMenu">
+            <div class="uk-grid">
+                <div class="uk-width-1-4@m">
+                    <ul>
+                        <li>
+                            <a href="">About Us</a>
+                        </li>
+
+                        <li>
+                            <a href="">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="uk-width-1-4@m">
+                    <ul>
+                        <li>
+                            <a href="">Expertise</a>
+                        </li>
+
+                        <li>
+                            <a href="">Consumers, home and lifestyle </a>
+                        </li>
+                        <li>
+                            <a href="">Lighting</a>
+                        </li>
+                        <li>
+                            <a href="">Communications</a>
+                        </li>
+                        <li>
+                            <a href="">Automotive</a>
+                        </li>
+                        <li>
+                            <a href="">Healthcare</a>
+                        </li>
+                        <li>
+                            <a href="">Industrial</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="uk-width-1-4@m">
+                    <ul>
+                        <li>
+                            <a href="">Design-to-build</a>
+                        </li>
+
+                        <li>
+                            <a href="">Design and development </a>
+                        </li>
+                        <li>
+                            <a href="">Product Industrialisation </a>
+                        </li>
+                        <li>
+                            <a href="">Manufacturing</a>
+                        </li>
+                        <li>
+                            <a href="">Supply chain management</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="uk-width-1-4@m footerMenu--last">
+                    <ul>
+                        <li class="footerMenu__email">
+                            <label>Subscribe to our newsletter</label>
+                            <div>
+                                <input type="text" placeholder="E-mail"/>  
+                                <span uk-icon="arrow-right"></span>
+                            </div>
+                        </li>
+                        
+                        <li class="footerMenu__socials">
+                            <div class="title"> Connect with us </div>
+                            <div class="uk-flex">
+                                <a href="" class="fb">
+                                    <span uk-icon="facebook"></span>
+                                </a>
+                                <a href="" class="ig">
+                                    <span uk-icon="instagram"></span>
+                                </a>
+                                <a href="" class="youtube">
+                                    <span uk-icon="youtube"></span>
+                                </a>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--footer-->
+
+    <script src="js/uikit.min.js">
+    </script>
+    <script src="js/uikit-icons.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/swiper-bundle.js"></script>
+    <script>
+    
+        AOS.init();
+        var swiper = new Swiper('.swiper-container', {
+        spaceBetween: 30,
+        slidesPerPage: 1,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        breakpoints: {
+        414: {
+          slidesPerView: 1.5,
+          spaceBetween: 20,
+        },
+        450: {
+          slidesPerView: 1.5,
+          spaceBetween: 20,
+        },
+        600: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        800: {
+          slidesPerView: 2.5,
+          spaceBetween: 20,
+        },
+        1024: {
+          slidesPerView: 3.5,
+          spaceBetween: 50,
+        },
+        }
+        });
+    
+    </script>
+</body>
+
+
+</html>
